@@ -1,0 +1,91 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-cinzel: 'Cinzel', serif;
+  --font-playfair: 'Playfair Display', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --color-gold-50: #fbf8ed;
+  --color-gold-100: #f5eed3;
+  --color-gold-200: #eadcab;
+  --color-gold-300: #ddc47c;
+  --color-gold-400: #d4b155;
+  --color-gold-500: #c5a03e;
+  --color-gold-600: #aa8230;
+  --color-gold-700: #886228;
+  --color-gold-800: #6f4f26;
+  --color-gold-900: #5d4223;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #0b0c0e;
+    color: #e4e4e7;
+  }
+
+  h1, h2, h3, .font-cinzel {
+    font-family: var(--font-cinzel);
+  }
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f5e4b7 0%, #d4af37 50%, #aa8230 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, rgba(212, 175, 55, 0.6), rgba(212, 175, 55, 0.1)) 1;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0c0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
+
+/* Continuous Glowing Neon Border in Logo Colors */
+@keyframes neon-glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.5), 0 0 30px rgba(212, 175, 55, 0.25), inset 0 0 15px rgba(212, 175, 55, 0.15);
+    border-color: rgba(212, 175, 55, 0.9);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(245, 230, 180, 0.75), 0 0 50px rgba(212, 175, 55, 0.45), inset 0 0 25px rgba(212, 175, 55, 0.25);
+    border-color: rgba(245, 238, 211, 1);
+  }
+}
+
+.artist-neon-frame {
+  animation: neon-glow-pulse 3.5s ease-in-out infinite;
+  border-width: 2px;
+  border-style: solid;
+}
+
+.glowing-box-container {
+  background: linear-gradient(145deg, rgba(19, 21, 26, 0.95), rgba(11, 12, 14, 0.98));
+  border: 1px solid rgba(212, 175, 55, 0.25);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.8), 0 0 20px -5px rgba(212, 175, 55, 0.15);
+  transition: all 0.3s ease;
+}
+
+.glowing-box-container:hover {
+  border-color: rgba(212, 175, 55, 0.55);
+  box-shadow: 0 15px 35px -10px rgba(0, 0, 0, 0.9), 0 0 30px -2px rgba(212, 175, 55, 0.25);
+}
+
+.neon-highlight-badge {
+  background: linear-gradient(90deg, rgba(212, 175, 55, 0.15), rgba(212, 175, 55, 0.05));
+  border: 1px solid rgba(212, 175, 55, 0.5);
+  box-shadow: 0 0 15px rgba(212, 175, 55, 0.2);
+}
