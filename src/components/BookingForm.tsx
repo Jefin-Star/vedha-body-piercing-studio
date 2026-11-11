@@ -25,7 +25,7 @@ export const BookingForm: React.FC<BookingFormProps> = ({
     specificService: 'Helix Piercing',
     jewelryStyle: 'ASTM F-136 Titanium (Standard)',
     placement: 'Left Ear',
-    artist: 'Amal K Pradeep (Founder & Specialist)',
+    artist: 'Amal K Pradeep (Founder, Piercing & Tooth Gem Specialist)',
     appointmentDate: '',
     appointmentTime: '12:00 PM',
     additionalNotes: '',
@@ -155,19 +155,25 @@ Looking forward to confirmation!`;
             Book Your Studio Session
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base mb-6">
-            Private, aseptic piercing sessions and bespoke Swarovski &amp; 18k solid gold tooth gem appointments. Walk-ins subject to availability; appointments prioritized.
+            Private, aseptic piercing sessions and bespoke tooth gem appointments with master specialist Amal K Pradeep. Walk-ins subject to availability; appointments prioritized.
           </p>
 
-          {/* Official Rates Banner Container */}
-          <div className="p-4 rounded-2xl glowing-box-container max-w-lg mx-auto flex flex-col sm:flex-row items-center justify-around gap-4 text-xs sm:text-sm">
-            <div className="text-center">
-              <span className="text-zinc-400 block text-[11px] uppercase tracking-wider mb-0.5">Body Piercing Rates</span>
-              <strong className="text-white font-mono font-bold text-base sm:text-lg text-[#f5eed3]">₹1,499 – ₹3,999</strong>
+          {/* Official Rates & Studio Hours Banner Container */}
+          <div className="p-4 sm:p-5 rounded-2xl glowing-box-container max-w-xl mx-auto space-y-3">
+            <div className="flex flex-col sm:flex-row items-center justify-around gap-4 text-xs sm:text-sm">
+              <div className="text-center">
+                <span className="text-zinc-400 block text-[11px] uppercase tracking-wider mb-0.5">Body Piercing Rates</span>
+                <strong className="text-white font-mono font-bold text-base sm:text-lg text-[#f5eed3]">₹1,499 – ₹3,999</strong>
+              </div>
+              <div className="hidden sm:block w-px h-8 bg-white/10" />
+              <div className="text-center">
+                <span className="text-zinc-400 block text-[11px] uppercase tracking-wider mb-0.5">Tooth Gem Rates</span>
+                <strong className="text-white font-mono font-bold text-base sm:text-lg text-[#f5eed3]">₹1,999 – ₹3,499</strong>
+              </div>
             </div>
-            <div className="hidden sm:block w-px h-8 bg-white/10" />
-            <div className="text-center">
-              <span className="text-zinc-400 block text-[11px] uppercase tracking-wider mb-0.5">Tooth Gem Rates</span>
-              <strong className="text-white font-mono font-bold text-base sm:text-lg text-[#f5eed3]">₹1,999 – ₹3,499</strong>
+            <div className="pt-2.5 border-t border-white/10 flex items-center justify-center gap-2 text-xs sm:text-sm text-[#f5eed3] font-medium">
+              <Clock className="w-4 h-4 text-[#d4af37] shrink-0" />
+              <span>Our studio is open Monday through Sunday, from 12 PM to 9 PM.</span>
             </div>
           </div>
         </div>
@@ -380,19 +386,17 @@ Looking forward to confirmation!`;
                   />
                 </div>
 
-                {/* Preferred Artist */}
+                {/* Preferred Specialist */}
                 <div>
                   <label className="block text-xs font-medium text-zinc-400 mb-1.5">
-                    Preferred Artist
+                    Studio Specialist
                   </label>
                   <select
                     value={formData.artist}
                     onChange={(e) => setFormData({ ...formData, artist: e.target.value })}
-                    className="w-full px-3.5 py-2.5 rounded-xl bg-zinc-900 border border-white/10 text-white text-sm focus:outline-none focus:border-[#d4af37]"
+                    className="w-full px-3.5 py-2.5 rounded-xl bg-zinc-900 border border-[#d4af37]/40 text-white text-sm focus:outline-none focus:border-[#d4af37]"
                   >
-                    <option value="Amal K Pradeep (Founder & Specialist)">👑 Amal K Pradeep (Founder &amp; Specialist)</option>
-                    <option value="Senior Specialist Ananya (Gems & Piercing)">Ananya (Tooth Gem &amp; Piercing Specialist)</option>
-                    <option value="First Available Senior Specialist">First Available Senior Specialist</option>
+                    <option value="Amal K Pradeep (Founder, Piercing & Tooth Gem Specialist)">👑 Amal K Pradeep (Founder, Piercing &amp; Tooth Gem Specialist)</option>
                   </select>
                 </div>
 
@@ -413,22 +417,23 @@ Looking forward to confirmation!`;
                   {errors.appointmentDate && <p className="text-[11px] text-rose-400 mt-1">{errors.appointmentDate}</p>}
                 </div>
 
-                {/* Preferred Time */}
+                {/* Preferred Time (12 PM to 9 PM) */}
                 <div>
                   <label className="block text-xs font-medium text-zinc-400 mb-1.5">
-                    Preferred Time Slot
+                    Preferred Time Slot (12 PM – 9 PM)
                   </label>
                   <select
                     value={formData.appointmentTime}
                     onChange={(e) => setFormData({ ...formData, appointmentTime: e.target.value })}
                     className="w-full px-3.5 py-2.5 rounded-xl bg-zinc-900 border border-white/10 text-white text-sm focus:outline-none focus:border-[#d4af37]"
                   >
-                    <option value="11:30 AM">11:30 AM</option>
-                    <option value="01:00 PM">01:00 PM</option>
-                    <option value="02:30 PM">02:30 PM</option>
-                    <option value="04:00 PM">04:00 PM</option>
-                    <option value="05:30 PM">05:30 PM</option>
-                    <option value="07:00 PM">07:00 PM</option>
+                    <option value="12:00 PM">12:00 PM</option>
+                    <option value="01:30 PM">01:30 PM</option>
+                    <option value="03:00 PM">03:00 PM</option>
+                    <option value="04:30 PM">04:30 PM</option>
+                    <option value="06:00 PM">06:00 PM</option>
+                    <option value="07:30 PM">07:30 PM</option>
+                    <option value="08:30 PM">08:30 PM</option>
                   </select>
                 </div>
               </div>

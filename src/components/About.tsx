@@ -29,7 +29,7 @@ export const About: React.FC<AboutProps> = ({ onOpenAftercare, onOpenBooking }) 
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl">
               <img
-                src="/public/assets/aistudio/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg"
+                src="./images/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg"
                 alt="VEDHA Studio Fine Septum Piercing"
                 className="w-full h-[460px] object-cover object-center hover:scale-105 transition-transform duration-700"
                 referrerPolicy="no-referrer"
@@ -51,7 +51,7 @@ export const About: React.FC<AboutProps> = ({ onOpenAftercare, onOpenBooking }) 
             {/* Floating Logo Badge */}
             <div className="hidden sm:flex absolute -top-6 -right-6 w-24 h-24 rounded-2xl bg-zinc-950 border border-[#d4af37]/40 shadow-xl p-2 items-center justify-center">
               <img
-                src="/public/assets/aistudio/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
+                src="./images/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
                 alt="VEDHA Insignia"
                 className="w-full h-full object-cover rounded-xl"
                 referrerPolicy="no-referrer"
@@ -63,10 +63,10 @@ export const About: React.FC<AboutProps> = ({ onOpenAftercare, onOpenBooking }) 
           <div className="lg:col-span-7 space-y-6">
             <div className="space-y-4">
               <h3 className="font-cinzel text-2xl sm:text-3xl font-semibold text-white">
-                Master Artists Dedicated to Your Comfort &amp; Individuality
+                Master Specialist Amal K Pradeep Dedicated to Your Comfort
               </h3>
               <p className="text-zinc-300 text-sm sm:text-base leading-relaxed">
-                Every appointment begins with an anatomical consultation. We map your ear cartilage curves, facial symmetry, and tooth shape to recommend pieces that celebrate your natural architecture. We never force standard placements onto unique bodies.
+                Every appointment begins with an anatomical consultation with Amal K Pradeep. He maps your ear cartilage curves, facial symmetry, and tooth shape to recommend placements that celebrate your natural architecture. We never force standard placements onto unique bodies.
               </p>
             </div>
 
@@ -108,7 +108,7 @@ export const About: React.FC<AboutProps> = ({ onOpenAftercare, onOpenBooking }) 
                   <span>Lifetime Downsizing &amp; Care</span>
                 </div>
                 <p className="text-xs text-zinc-400 leading-relaxed">
-                  Continuous aftercare support, post-healing jewelry down-sizing checks, and direct WhatsApp artist access throughout your healing journey.
+                  Continuous aftercare support, post-healing jewelry down-sizing checks, and direct WhatsApp access to Amal K Pradeep throughout your healing journey.
                 </p>
               </div>
             </div>

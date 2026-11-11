@@ -29,7 +29,7 @@ export default function App() {
 
   const [preSelectedService, setPreSelectedService] = useState<string>('');
   const [preSelectedNotes, setPreSelectedNotes] = useState<string>('');
-  const [preSelectedArtist, setPreSelectedArtist] = useState<string>('Amal K Pradeep (Founder & Specialist)');
+  const [preSelectedArtist, setPreSelectedArtist] = useState<string>('Amal K Pradeep (Founder, Piercing & Tooth Gem Specialist)');
   const [isAftercareOpen, setIsAftercareOpen] = useState(false);
 
   // Save services changes to localStorage

@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenAftercare }
           >
             <div className="relative w-10 h-10 rounded-full overflow-hidden border border-[#d4af37]/60 group-hover:border-[#d4af37] transition-colors shadow-md shadow-[#d4af37]/20">
               <img
-                src="/public/assets/aistudio/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
+                src="./images/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
                 alt="VEDHA Body Piercing Studio Logo"
                 className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
                 referrerPolicy="no-referrer"

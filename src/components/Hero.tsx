@@ -12,7 +12,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
       {/* Background with Dark Scrim Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_luxury_studio_piercing_1794316028744.jpg"
+          src="./images/hero_luxury_studio_piercing_1794316028744.jpg"
           alt="VEDHA Body Piercing Studio Luxury Suite"
           className="w-full h-full object-cover object-center scale-105 filter brightness-[0.42] contrast-[1.1] transition-transform duration-1000 ease-out"
           referrerPolicy="no-referrer"
@@ -29,7 +29,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
           <div className="inline-flex items-center gap-3 mb-6 p-1.5 pr-4 rounded-full bg-white/5 border border-[#d4af37]/30 backdrop-blur-md hover:border-[#d4af37]/60 transition-colors">
             <div className="w-9 h-9 rounded-full overflow-hidden border border-[#d4af37]">
               <img
-                src="/public/assets/aistudio/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
+                src="./images/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
                 alt="VEDHA Studio Insignia"
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -52,7 +52,7 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
             Experience world-class aseptic body piercing and certified Swarovski &amp; 18k solid gold tooth gem bonding. Crafted for your unique anatomy with medical-grade precision.
           </p>
 
-          {/* Official Studio Rate Highlights */}
+          {/* Official Studio Rate Highlights & Operating Hours */}
           <div className="flex flex-wrap items-center justify-center gap-3 sm:gap-4 mb-10">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-950/80 border border-[#d4af37]/40 shadow-[0_0_15px_rgba(212,175,55,0.15)] text-xs sm:text-sm">
               <span className="text-zinc-400">Body Piercing:</span>
@@ -61,6 +61,10 @@ export const Hero: React.FC<HeroProps> = ({ onBookClick, onExploreClick }) => {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-950/80 border border-[#d4af37]/40 shadow-[0_0_15px_rgba(212,175,55,0.15)] text-xs sm:text-sm">
               <span className="text-zinc-400">Tooth Gems:</span>
               <strong className="text-white font-mono font-bold tracking-wide">Starting ₹1,999 to ₹3,499</strong>
+            </div>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-zinc-950/80 border border-[#d4af37]/40 shadow-[0_0_15px_rgba(212,175,55,0.15)] text-xs sm:text-sm">
+              <span className="text-zinc-400">Open:</span>
+              <strong className="text-[#f5eed3] font-mono font-bold tracking-wide">Mon – Sun, 12 PM – 9 PM</strong>
             </div>
           </div>
 

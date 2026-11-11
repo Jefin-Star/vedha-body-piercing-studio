@@ -40,7 +40,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '3 - 6 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/59ea4fbf-a723-4586-ba64-4e975e8a4dab_60532187.jpg',
+    image: './images/59ea4fbf-a723-4586-ba64-4e975e8a4dab_60532187.jpg',
     popular: true,
     metals: ['ASTM F-136 Titanium', '14k/18k Solid Gold']
   },
@@ -54,7 +54,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '3 - 6 months',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/de90d4d8-0618-4d07-967d-b81cb0444b7b_cddfc054.jpg',
+    image: './images/de90d4d8-0618-4d07-967d-b81cb0444b7b_cddfc054.jpg',
     popular: true,
     metals: ['Implant Titanium Labret', 'Real Gold Stud']
   },
@@ -68,7 +68,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '3 - 9 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     metals: ['ASTM F-136 Titanium', '18k Gold']
   },
   {
@@ -81,7 +81,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '4 - 8 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     metals: ['ASTM F-136 Titanium', 'Threadless Gold']
   },
   {
@@ -94,7 +94,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '6 - 9 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     popular: true,
     metals: ['ASTM F-136 Titanium', 'Solid Gold']
   },
@@ -108,7 +108,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '2 - 4 months',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/0b811062-7694-4a69-af97-bf924dc24c7f_6ae4f500.jpg',
+    image: './images/0b811062-7694-4a69-af97-bf924dc24c7f_6ae4f500.jpg',
     metals: ['Curved Titanium Barbell']
   },
   {
@@ -121,7 +121,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '6 - 10 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     metals: ['Curved Titanium Barbell', '18k Gold']
   },
   {
@@ -134,7 +134,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '2 - 3 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg',
+    image: './images/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg',
     metals: ['Implant-grade Titanium Flatback']
   },
   {
@@ -147,7 +147,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '2 - 3 months',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg',
+    image: './images/f506a891-5c66-476c-bf55-97ec38108080_c364210c.jpg',
     popular: true,
     metals: ['ASTM F-136 Titanium Horseshoe', 'Solid Gold Clicker']
   },
@@ -161,7 +161,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '4 - 9 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/59ea4fbf-a723-4586-ba64-4e975e8a4dab_60532187.jpg',
+    image: './images/59ea4fbf-a723-4586-ba64-4e975e8a4dab_60532187.jpg',
     popular: true,
     metals: ['ASTM F-136 Titanium', 'Synthetic Opal / CZ']
   },
@@ -175,7 +175,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '6 - 12 months',
     painLevel: 'Moderate',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     popular: true,
     metals: ['Implant-grade Titanium', '14k/18k Gold Clicker']
   },
@@ -189,7 +189,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '6 - 12 months',
     painLevel: 'Noticeable',
-    image: '/public/assets/aistudio/63c301db-1bde-4d04-a125-65493e6620c9_2eb4d13e.jpg',
+    image: './images/63c301db-1bde-4d04-a125-65493e6620c9_2eb4d13e.jpg',
     metals: ['ASTM F-136 Titanium Bar']
   },
   {
@@ -202,7 +202,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: '6 - 12 months',
     painLevel: 'Noticeable',
-    image: '/public/assets/aistudio/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
+    image: './images/d180bfee-c64f-448a-a0d8-4e3bc3bbe9c3_2586cd1a.jpg',
     metals: ['ASTM F-136 Titanium & Solid Gold']
   },
 
@@ -217,7 +217,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
+    image: './images/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
     popular: true,
     metals: ['Lead-Free Dental Crystal', 'Safe Composite Bond']
   },
@@ -231,7 +231,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
+    image: './images/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
     metals: ['Dual Swarovski Crystals']
   },
   {
@@ -244,7 +244,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
+    image: './images/ded34655-21e2-4c90-a2eb-b2f9065e4e8a_bb1dcd01.jpg',
     popular: true,
     metals: ['Authentic Swarovski Elements']
   },
@@ -258,7 +258,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
+    image: './images/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
     metals: ['Multi-Gem Constellation']
   },
   {
@@ -271,7 +271,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
+    image: './images/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
     popular: true,
     metals: ['18k/22k Solid Gold Charm']
   },
@@ -285,7 +285,7 @@ export const INITIAL_SERVICES: ServiceItem[] = [
     currency: '₹',
     healingTime: 'Instant / zero downtime',
     painLevel: 'Mild',
-    image: '/public/assets/aistudio/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
+    image: './images/25b957aa-2fec-4850-bc52-3a551f92f87b_4fa2e26a.jpg',
     popular: true,
     metals: ['Solid Gold + Swarovski Pavé']
   }

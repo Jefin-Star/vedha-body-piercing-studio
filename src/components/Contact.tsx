@@ -47,7 +47,7 @@ export const Contact: React.FC = () => {
                     +91 8921765874
                   </div>
                   <p className="text-xs text-zinc-400 mt-1">
-                    Direct artist consultations, rapid quote inquiries, and slot confirmations.
+                    Direct consultations with Amal K Pradeep, rapid quote inquiries, and slot confirmations.
                   </p>
                 </div>
               </a>
@@ -97,30 +97,34 @@ export const Contact: React.FC = () => {
                     Amalkpradeep1@gmail.com
                   </div>
                   <p className="text-xs text-zinc-400 mt-1">
-                    Partnerships, bespoke jewelry ordering, and guest artist inquiries.
+                    Direct client consultations, studio bookings, and bespoke procedure requests.
                   </p>
                 </div>
               </a>
             </div>
 
             {/* Opening Hours Box */}
-            <div className="p-6 rounded-2xl bg-zinc-950/80 border border-white/10 space-y-3">
+            <div className="p-6 rounded-2xl bg-zinc-950/80 border border-white/10 space-y-3.5">
               <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-[#d4af37]">
                 <Clock className="w-4 h-4" />
                 <span>Studio Working Hours</span>
               </div>
+              <div className="p-3.5 rounded-xl bg-white/[0.03] border border-[#d4af37]/30">
+                <p className="text-sm font-semibold text-white">
+                  Our studio is open Monday through Sunday, from 12 PM to 9 PM.
+                </p>
+                <p className="text-xs text-zinc-400 mt-1">
+                  Private consultations and procedures personally performed by Amal K Pradeep.
+                </p>
+              </div>
               <div className="space-y-2 text-xs text-zinc-300">
-                <div className="flex items-center justify-between py-1 border-b border-white/5">
-                  <span className="text-zinc-400">Tuesday – Saturday:</span>
-                  <span className="font-medium text-white">11:00 AM – 08:30 PM</span>
-                </div>
-                <div className="flex items-center justify-between py-1 border-b border-white/5">
-                  <span className="text-zinc-400">Sunday:</span>
-                  <span className="font-medium text-white">12:00 PM – 07:30 PM</span>
+                <div className="flex items-center justify-between py-1.5 border-b border-white/5">
+                  <span className="text-zinc-400">Monday – Sunday:</span>
+                  <span className="font-mono font-semibold text-[#d4af37]">12:00 PM – 09:00 PM</span>
                 </div>
                 <div className="flex items-center justify-between py-1">
-                  <span className="text-zinc-400">Monday:</span>
-                  <span className="text-[#d4af37] font-medium">By Prior Appointment Only</span>
+                  <span className="text-zinc-400">Schedule:</span>
+                  <span className="text-emerald-400 font-medium">Open 7 Days a Week</span>
                 </div>
               </div>
             </div>

@@ -38,7 +38,7 @@ export const MeetTheArtist: React.FC<MeetTheArtistProps> = ({ onBookWithArtist }
                 {/* Continuous Glowing Neon Border Frame in Logo Gold */}
                 <div className="artist-neon-frame relative w-64 h-72 sm:w-80 sm:h-96 rounded-2xl overflow-hidden bg-zinc-950 shadow-2xl">
                   <img
-                    src="/public/assets/aistudio/af311161-7226-45d8-bce0-4f22b530688b_0d7a32a8.jpg"
+                    src="./images/af311161-7226-45d8-bce0-4f22b530688b_0d7a32a8.jpg"
                     alt="Amal K Pradeep - Founder, Piercing & Tooth Gem Specialist"
                     className="w-full h-full object-cover object-top filter brightness-105 contrast-105 group-hover:scale-105 transition-transform duration-700 ease-out"
                     referrerPolicy="no-referrer"
@@ -103,7 +103,7 @@ export const MeetTheArtist: React.FC<MeetTheArtistProps> = ({ onBookWithArtist }
               </p>
 
               <p className="text-zinc-400 text-xs sm:text-sm leading-relaxed">
-                His expertise spans advanced cartilage curations (daith, industrial scaffolds, rook, and conch), micro-precision facial piercings (septum, bridge, nostrils), and luxury dental-grade Swarovski &amp; 18k solid gold tooth gem bonding with zero enamel abrasion.
+                His expertise spans advanced cartilage curations (daith, industrial scaffolds, rook, and conch), micro-precision facial piercings (septum, bridge, nostrils), and dental-grade light-cured tooth gem bonding with zero enamel abrasion.
               </p>
 
               {/* Specialization Checkmarks */}
@@ -129,7 +129,7 @@ export const MeetTheArtist: React.FC<MeetTheArtistProps> = ({ onBookWithArtist }
               {/* Direct Booking Actions */}
               <div className="pt-4 flex flex-wrap items-center gap-4">
                 <button
-                  onClick={() => onBookWithArtist('Amal K Pradeep (Founder & Specialist)')}
+                  onClick={() => onBookWithArtist('Amal K Pradeep (Founder, Piercing & Tooth Gem Specialist)')}
                   className="inline-flex items-center gap-2.5 px-6 py-3.5 text-xs sm:text-sm font-semibold tracking-wider uppercase text-black bg-gradient-to-r from-[#f5e4b7] via-[#d4af37] to-[#aa8230] rounded-xl hover:shadow-xl hover:shadow-[#d4af37]/30 hover:scale-[1.02] active:scale-[0.98] transition-all cursor-pointer"
                 >
                   <Calendar className="w-4 h-4" />
@@ -186,7 +186,7 @@ export const MeetTheArtist: React.FC<MeetTheArtistProps> = ({ onBookWithArtist }
               <div className="text-xl font-bold font-mono text-white">100% Safe</div>
               <div className="text-xs font-semibold text-[#d4af37] mt-0.5">Dental Composite Bonding</div>
               <p className="text-[11px] text-zinc-400 mt-1">
-                Zero drilling, lead-free genuine Swarovski &amp; 18k/22k solid gold.
+                Zero drilling, medical-grade dental etch, light-cured composite bonding, and 100% reversible.
               </p>
             </div>
           </div>

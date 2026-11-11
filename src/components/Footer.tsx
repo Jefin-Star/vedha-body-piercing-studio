@@ -20,7 +20,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenAftercare }
             <div className="flex items-center gap-3">
               <div className="w-12 h-12 rounded-full overflow-hidden border border-[#d4af37]/60">
                 <img
-                  src="/public/assets/aistudio/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
+                  src="./images/638fd1ce-1dad-443e-86a2-d4094d6dbf5c_9ba97be2.jpg"
                   alt="VEDHA Body Piercing Studio Emblem"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -37,8 +37,12 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenAftercare }
             </div>
 
             <p className="text-zinc-400 text-xs leading-relaxed max-w-sm">
-              Global-standard advanced body piercing and luxury tooth gems studio. Specialized in anatomical ear curation, medical-grade ASTM F-136 titanium, 18k solid gold, and lead-free Swarovski tooth gems.
+              Global-standard advanced body piercing and tooth gems studio led exclusively by founder &amp; specialist Amal K Pradeep. Specialized in anatomical ear curation, ASTM F-136 titanium, and dental-safe bonding.
             </p>
+
+            <div className="text-xs text-[#d4af37] font-medium">
+              Open Monday through Sunday, 12 PM to 9 PM
+            </div>
 
             <div className="flex items-center gap-3 pt-2">
               <a
@@ -82,7 +86,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenBooking, onOpenAftercare }
               </li>
               <li>
                 <a href="#artist" className="hover:text-[#d4af37] text-[#f5eed3] transition-colors flex items-center gap-1.5">
-                  Meet the Artist (Amal)
+                  Meet the Artist (Amal K Pradeep)
                 </a>
               </li>
               <li>

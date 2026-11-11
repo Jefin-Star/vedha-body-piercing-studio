@@ -15,7 +15,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectLookForBooking }) => {
     { id: 'ear-curation', label: 'Ear Styling' },
     { id: 'facial', label: 'Facial & Nose' },
     { id: 'piercings', label: 'Cartilage & Piercings' },
-    { id: 'tooth-gems', label: 'Luxury Tooth Gems' },
+    { id: 'tooth-gems', label: 'Tooth Gems' },
   ];
 
   const filteredItems = GALLERY_ITEMS.filter((item) => {
@@ -39,7 +39,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectLookForBooking }) => {
             Curated Transformations &amp; Adornments
           </h2>
           <p className="text-zinc-400 text-sm sm:text-base leading-relaxed">
-            Authentic studio piercings and dental-safe tooth gem transformations executed by VEDHA specialists.
+            Authentic studio piercings and dental-safe tooth gem procedures personally performed by Amal K Pradeep.
           </p>
         </div>
 
@@ -163,7 +163,7 @@ export const Gallery: React.FC<GalleryProps> = ({ onSelectLookForBooking }) => {
                   <div className="p-4 rounded-xl bg-white/[0.03] border border-white/10 space-y-2">
                     <div className="text-xs font-semibold text-[#d4af37] flex items-center gap-1.5">
                       <Sparkles className="w-3.5 h-3.5" />
-                      <span>Artist Technical Note</span>
+                      <span>Technique &amp; Aftercare Protocol</span>
                     </div>
                     <p className="text-xs text-zinc-400 leading-relaxed">
                       {activeModalItem.artistNote}
